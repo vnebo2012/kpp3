@@ -49,5 +49,7 @@
     <string name="gidravlika">Гидравлика</string>
     <string name="nasosi">Гидронасосы</string>
     <string name="gidrocilindri">Гидроцилиндры</string>
+    <string name="gidroraspred">Распределители</string>
+    <string name="nasosi2">Насосы</string>
 
 </resources>

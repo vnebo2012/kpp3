@@ -201,14 +201,14 @@ public class MenuActivity extends AppCompatActivity
         String rString = getString(R.string.kpp_menu);
         String rString2 = getString(R.string.dvs_menu3);
         String rString3 = getString(R.string.most_menu2);
-        String rString4 = getString(R.string.nasosi);
-       // String rString5 = getString(R.string.gidrocilindri);
+        String rString4 = getString(R.string.nasosi2);
+        String rString5 = getString(R.string.gidroraspred);
 
         adapter.addFrag(new FunFragment(), rString);
         adapter.addFrag(new PristFragment(), rString2);
         adapter.addFrag(new PlitaFragment(), rString3);
         adapter.addFrag(new KolonaFragment(), rString4);
-        //adapter.addFrag(new CilindriFragment(), rString5);
+        adapter.addFrag(new CilindriFragment(), rString5);
 
 
         viewPager.setAdapter(adapter);
