@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">КПП для МТ</string>
+    <string name="title_activity_spravka">Spravka</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="text">Text</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+
+    <string name="title_activity_privetstvie">Privetstvie</string>
+    <string name="app_nam">Для самодельного минитрактора</string>
+    <string name="action_nastroi">Еще от Dastory Studio</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="moget_plata">Посмотреть еще приложения</string>
+    <string name="soglasen">ок</string>
+    <string name="tema_pisma">Тема сообщения</string>
+    <string name="soobwenie">* Сообщение</string>
+    <string name="est_idea">КПП для минитрактора</string>
+    <string name="plus_plus">* Вы можете написать свои пожелания, рекомендации и замечания -
+        относительно улучшения работы или дизайна приложения </string>
+
+    <string name="plus_plus2">**Чтобы отправить сообщение на Viber - скопируйте номер и добавте его в
+        контакты Viber. (В правом нижнем углу Вайбера - нажать на бирюзовую кнопку с изображением
+        "человечка" с плюсом - вставить скопированій номер).  Или просто отправте письмо на Gmail - почту.   </string>
+    <string name="action_yuo">YuoTube</string>
+
+    <string name="banner_ad_unit_id2">ca-app-pub-4882550262749386/9882912153</string>
+    <string name="banner_ad_unit_id1">ca-app-pub-4882550262749386/8363662950</string>
+    <string name="action_yuo2">Поделится с друзьями</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="gatovi_menu">Трактора</string>
+    <string name="kolesa_menu">Колеса</string>
+    <string name="dvs_menu">Двигатели</string>
+    <string name="kpp_menu">КПП</string>
+    <string name="most_menu">Задний мост</string>
+    <string name="most_menu2">Мост</string>
+    <string name="dvs_menu2">Двигатель</string>
+    <string name="dvs_menu3">ДВС</string>
+    <string name="title_activity_kpp__m412_">KPP_M412_Activity</string>
+    <string name="title_activity_kpp__m412">КПП М412</string>
+    <string name="title_activity_kpp__gaz_52_53">KPP_GAZ_52_53</string>
+    <string name="title_activity_kpp__gaz_52_531">КПП ГАЗ 52-53</string>
+    <string name="title_activity_kpp__gaz_51">KPP_GAZ_51</string>
+    <string name="gidravlika">Гидравлика</string>
+    <string name="nasosi">Гидронасосы</string>
+    <string name="gidrocilindri">Гидроцилиндры</string>
+
+</resources>

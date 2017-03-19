@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools2"
+    android:id="@+id/content_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.cppminitraktor.nikolay.minitraktor.MenuActivity"
+    tools:showIn="@layout/app_bar_menu"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlueGrey400"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="0dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/m412" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorWite"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Москвич М412"
+                        android:textColor="@color/colorTextMy"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Передаточние числа:"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="1) 3,49; 2) 2,04; 3) 1,33; 4) 1,00; З/х) 4,71"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <ImageView
+                        android:id="@+id/imageView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:elevation="0dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/gaz52_53" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorWite"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView161"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="ГАЗ 52-53"
+                        android:textColor="@color/colorTextMy"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView181"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Передаточние числа:"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView191"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="1) 6.48; 2) 3.09; 3) 1.71; 4) 1,00; З/х) 7.9"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <ImageView
+                        android:id="@+id/imageView211"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:elevation="0dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/vaz2101" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorWite"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView1611"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="ВАЗ 2101"
+                        android:textColor="@color/colorTextMy"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView1811"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Передаточние числа:"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView1911"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="1) 3,75; 2) 2,3; 3) 1,49; 4) 1,00; З/х) 3.87"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <ImageView
+                        android:id="@+id/imageView218"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:elevation="0dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kpp_gaz_51" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorWite"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView1618"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="ГАЗ 51"
+                        android:textColor="@color/colorTextMy"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView1818"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Передаточние числа:"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView1918"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="1) 6.4; 2) 3.09; 3) 1.69; 4) 1,00; З/х) 7.82"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <ImageView
+                        android:id="@+id/imageView2181"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:elevation="0dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kpp_uaz" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorWite"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16181"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="КПП УАЗ"
+                        android:textColor="@color/colorTextMy"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView18181"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Передаточние числа:"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView19181"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="1) 3.78; 2) 2.6; 3) 1.55; 4) 1,00; З/х) 4.12"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <ImageView
+                        android:id="@+id/imageView2187"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:elevation="0dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kpp_ural" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorWite"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16186"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:text='Мото "Урал", "Днепр"'
+                        android:textColor="@color/colorTextMy"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView18186"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Передаточние числа:"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView19186"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="1) 3.6; 2) 2.28; 3) 1.56; 4) 1,19; З/х) 4.2"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <ImageView
+                        android:id="@+id/imageView21814"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:elevation="0dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kpp_m408" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorWite"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView161814"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="Москвич М408"
+                        android:textColor="@color/colorTextMy"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView181814"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Передаточние числа:"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView191814"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="1) 3.81; 2) 2.42; 3) 1.45; 4) 1,00; З/х) 4.71"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <ImageView
+                        android:id="@+id/imageView218141"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:elevation="0dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kpp_zaz968" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorWite"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView1618141"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="ЗАЗ 968М"
+                        android:textColor="@color/colorTextMy"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView1818141"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Передаточние числа:"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView1918141"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="1) 3.8; 2) 2.12; 3) 1.4; 4) 0.96; З/х) 4.12"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <ImageView
+                        android:id="@+id/imageView2181411"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:elevation="0dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kpp_rk_uaz" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorWite"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16181411"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="РК УАЗ"
+                        android:textColor="@color/colorTextMy"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView18181411"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Передаточние числа:"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView19181411"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="1) 1.94; 2) 1.0;"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <ImageView
+                        android:id="@+id/imageView21814111"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:elevation="0dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kpp_2108" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorWite"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView161814111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="ВАЗ 2108"
+                        android:textColor="@color/colorTextMy"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView181814111"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Передаточние числа:"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView191814111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="1) 3.63; 2) 1.95; 3) 1.35; 4) 0.94; З/х) 3.53"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <ImageView
+                        android:id="@+id/imageView218141111"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:elevation="0dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kpp_oka" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorWite"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView1618141111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="ВАЗ Ока"
+                        android:textColor="@color/colorTextMy"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView1818141111"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Передаточние числа:"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView1918141111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="1) 3.7; 2) 2,06; 3) 1.27; 4) 0.9; З/х) 3.67"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <ImageView
+                        android:id="@+id/imageView2181411111"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:elevation="0dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/rk_niva" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorWite"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16181411111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="РК 2121 Нива"
+                        android:textColor="@color/colorTextMy"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView18181411111"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Передаточние числа:"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView19181411111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="1) 3.7; 2) 2,06; 3) 1.27; 4) 0.9; З/х) 3.67"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <ImageView
+                        android:id="@+id/imageView21814111111"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:elevation="0dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kpp_golf2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorWite"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView161814111111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="КПП Golf-2"
+                        android:textColor="@color/colorTextMy"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView181814111111"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Передаточние числа:"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView191814111111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="1) 3.45; 2) 1.94; 3) 1.28; 4) 0.9; 5) 0.74; З/х) 3.66"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <ImageView
+                        android:id="@+id/imageView218141111111"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:elevation="0dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kpp_123" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorWite"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView1618141111111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="Mercedes-Benz W123"
+                        android:textColor="@color/colorTextMy"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView1818141111111"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Передаточние числа:"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView1918141111111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="1) 3.82; 2) 2.19; 3) 1.39; 4) 1.0; 5) 0.81; З/х) 3.7"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

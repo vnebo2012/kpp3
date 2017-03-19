@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+tools:context="com.cppminitraktor.nikolay.minitraktor.MainActivity"
+    >
+
+
+
+    <include layout="@layout/content_main"
+        />
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="bottom|end"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="* - крутящий момент на колесе (кгс*м)"
+        android:id="@+id/textView3"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="зеленый - скорость на пониженной"
+        android:id="@+id/textView30"
+        android:textColor="#44ff00"
+        android:layout_marginLeft="10dp"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="оренжевый - скорость на повышенной"
+        android:id="@+id/textView5"
+        android:textColor="#FFB74D"
+        android:layout_marginLeft="10dp"
+        android:textSize="12dp" />
+</LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_media_play"
+        android:onClick="onEmailClick" />
+
+</android.support.design.widget.CoordinatorLayout>

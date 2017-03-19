@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "979499749285",
+    "firebase_url": "https://kppminitraktor.firebaseio.com",
+    "project_id": "kppminitraktor",
+    "storage_bucket": "kppminitraktor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979499749285:android:c75c7ca4f79a6cfa",
+        "android_client_info": {
+          "package_name": "com.cppminitraktor.nikolay.minitraktor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979499749285-enscoddh2j018c4qjhdnkqs0kbpt275o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cppminitraktor.nikolay.minitraktor",
+            "certificate_hash": "ABABB65CDD0F62F8494050B422275EC374EC3E1A"
+          }
+        },
+        {
+          "client_id": "979499749285-2drfc3922fple7r9pt5g2cnoqv5mtmv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmJO6xwhR4e2da8z0B24IqEb9ZYcfKIgU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979499749285-2drfc3922fple7r9pt5g2cnoqv5mtmv9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

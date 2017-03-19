@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cppminitraktor.nikolay.minitraktor.Privetstvie"
+    android:background="#00046b"
+    android:gravity="center_horizontal"
+    android:nestedScrollingEnabled="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="0.08"
+            android:layout_marginBottom="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="by  Dastory Studio"
+            android:id="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="36dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+</RelativeLayout>

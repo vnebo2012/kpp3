@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_callc"
+            android:title="Расчет КПП" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/you_tube"
+                android:title="@string/action_yuo"
+                android:icon="@drawable/ic_you"
+                />
+            <item
+                android:id="@+id/market"
+                android:title="@string/action_nastroi"
+                android:icon="@drawable/ic_file"
+                />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Поделится" />
+            <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_email"
+            android:title="Написать" />
+            <item
+                android:id="@+id/info"
+                android:icon="@mipmap/ic_p3"
+                android:title="Угостить чаем" />
+
+        </menu>
+    </item>
+
+</menu>

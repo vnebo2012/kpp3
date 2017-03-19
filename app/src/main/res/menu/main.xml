@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+    <item
+        android:id="@+id/you_tube"
+        android:title="@string/action_yuo"
+        android:textColor="#B0BEC5"
+        />
+    <item
+        android:id="@+id/market"
+        android:title="@string/action_nastroi"
+        android:textColor="#B0BEC5"
+        />
+   
+</menu>
