@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Vibrator;
@@ -24,8 +25,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebView;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,11 +48,16 @@ public class MenuActivity extends AppCompatActivity
     AlertDialog.Builder ad2;
     AlertDialog.Builder ad3;
     Context context;
+    TextView textViewInfo;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+
+
+
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -200,7 +213,7 @@ public class MenuActivity extends AppCompatActivity
 
         String rString = getString(R.string.kpp_menu);
         String rString2 = getString(R.string.dvs_menu3);
-        String rString3 = getString(R.string.most_menu2);
+        String rString3 = getString(R.string.most_menu21);
         String rString4 = getString(R.string.nasosi2);
         String rString5 = getString(R.string.gidroraspred);
 
@@ -242,4 +255,5 @@ public class MenuActivity extends AppCompatActivity
             return mFragmentTitleList.get(position);
         }
     }
+   
 }
