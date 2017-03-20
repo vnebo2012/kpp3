@@ -38,7 +38,7 @@
                     <ImageView
                         android:id="@+id/imageView2"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:elevation="0dp"
                         android:scaleType="fitXY"
                         app:srcCompat="@drawable/most412" />
@@ -58,7 +58,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:text="Москвич М412"
-                        android:textColor="@color/colorTextMy"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
 
                     <TextView
@@ -108,7 +108,7 @@
                         android:layout_margin="3dp"
                         android:layout_marginLeft="5dp"
                         android:text="ГАЗ 51"
-                        android:textColor="@color/colorTextMy"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
 
                     <TextView
@@ -156,7 +156,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:text="УАЗ"
-                        android:textColor="@color/colorTextMy"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
 
                     <TextView

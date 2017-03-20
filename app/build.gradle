@@ -8,8 +8,8 @@ android {
         applicationId "com.cppminitraktor.nikolay.minitraktor"
         minSdkVersion 15
         targetSdkVersion 24
-        versionCode 31
-        versionName "4.37"
+        versionCode 32
+        versionName "4.38"
     }
     buildTypes {
         release {

@@ -214,14 +214,16 @@ public class MenuActivity extends AppCompatActivity
         String rString = getString(R.string.kpp_menu);
         String rString2 = getString(R.string.dvs_menu3);
         String rString3 = getString(R.string.most_menu21);
-        String rString4 = getString(R.string.gidroraspred);
-       // String rString5 = getString(R.string.nasosi2);
+        String rString4 = getString(R.string.nasosi2);
+        String rString5 = getString(R.string.gidroraspred);
+        String rString6 = getString(R.string.gidrocilindri);
 
         adapter.addFrag(new FunFragment(), rString);
         adapter.addFrag(new PristFragment(), rString2);
         adapter.addFrag(new PlitaFragment(), rString3);
-        adapter.addFrag(new CilindriFragment(), rString4);
-      //  adapter.addFrag(new KolonaFragment(), rString5);
+        adapter.addFrag(new KolonaFragment(), rString4);
+        adapter.addFrag(new CilindriFragment(), rString5);
+        adapter.addFrag(new CiFragment(), rString6);
 
 
 

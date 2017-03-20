@@ -37,8 +37,8 @@
 
                     <ImageView
                         android:id="@+id/imageView2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:elevation="0dp"
                         android:scaleType="fitXY"
                         app:srcCompat="@drawable/m412" />
@@ -58,7 +58,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:text="Москвич М412"
-                        android:textColor="@color/colorTextMy"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
 
                     <TextView
@@ -87,7 +87,7 @@
                     <ImageView
                         android:id="@+id/imageView21"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:elevation="0dp"
                         android:scaleType="fitXY"
                         app:srcCompat="@drawable/gaz52_53" />
@@ -108,7 +108,7 @@
                         android:layout_margin="3dp"
                         android:layout_marginLeft="5dp"
                         android:text="ГАЗ 52-53"
-                        android:textColor="@color/colorTextMy"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
 
                     <TextView
@@ -157,7 +157,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:text="ВАЗ 2101"
-                        android:textColor="@color/colorTextMy"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
 
                     <TextView
@@ -207,7 +207,7 @@
                         android:layout_margin="3dp"
                         android:layout_marginLeft="5dp"
                         android:text="ГАЗ 51"
-                        android:textColor="@color/colorTextMy"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
 
                     <TextView
@@ -257,7 +257,7 @@
                         android:layout_margin="3dp"
                         android:layout_marginLeft="5dp"
                         android:text="КПП УАЗ"
-                        android:textColor="@color/colorTextMy"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
 
                     <TextView
@@ -307,7 +307,7 @@
                         android:layout_margin="3dp"
                         android:layout_marginLeft="5dp"
                         android:text='Мото "Урал", "Днепр"'
-                        android:textColor="@color/colorTextMy"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
 
                     <TextView
@@ -357,7 +357,7 @@
                         android:layout_margin="3dp"
                         android:layout_marginLeft="5dp"
                         android:text="Москвич М408"
-                        android:textColor="@color/colorTextMy"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
 
                     <TextView
@@ -407,7 +407,7 @@
                         android:layout_margin="3dp"
                         android:layout_marginLeft="5dp"
                         android:text="ЗАЗ 968М"
-                        android:textColor="@color/colorTextMy"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
 
                     <TextView
@@ -457,7 +457,7 @@
                         android:layout_margin="3dp"
                         android:layout_marginLeft="5dp"
                         android:text="РК УАЗ"
-                        android:textColor="@color/colorTextMy"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
 
                     <TextView
@@ -507,7 +507,7 @@
                         android:layout_margin="3dp"
                         android:layout_marginLeft="5dp"
                         android:text="ВАЗ 2108"
-                        android:textColor="@color/colorTextMy"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
 
                     <TextView
@@ -557,7 +557,7 @@
                         android:layout_margin="3dp"
                         android:layout_marginLeft="5dp"
                         android:text="ВАЗ Ока"
-                        android:textColor="@color/colorTextMy"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
 
                     <TextView
@@ -607,7 +607,7 @@
                         android:layout_margin="3dp"
                         android:layout_marginLeft="5dp"
                         android:text="РК 2121 Нива"
-                        android:textColor="@color/colorTextMy"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
 
                     <TextView
@@ -657,7 +657,7 @@
                         android:layout_margin="3dp"
                         android:layout_marginLeft="5dp"
                         android:text="КПП Golf-2"
-                        android:textColor="@color/colorTextMy"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
 
                     <TextView
@@ -707,7 +707,7 @@
                         android:layout_margin="3dp"
                         android:layout_marginLeft="5dp"
                         android:text="Mercedes-Benz W123"
-                        android:textColor="@color/colorTextMy"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
 
                     <TextView

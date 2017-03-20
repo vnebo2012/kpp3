@@ -54,7 +54,7 @@
                         android:layout_weight="1"
                         android:elevation="0dp"
                         android:scaleType="fitXY"
-                        app:srcCompat="@drawable/r80_vid" />
+                        app:srcCompat="@drawable/gidrocilindr_ustroystvo" />
 
                     <TextView
                         android:id="@+id/textView1641"
@@ -63,7 +63,7 @@
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="5dp"
                         android:layout_weight="1"
-                        android:text="Гидрораспределитель Р80 3/1 222"
+                        android:text="Гидроцилиндр"
                         android:textColor="@color/colorMy"
                         android:textSize="14sp" />
                 </LinearLayout>
@@ -81,12 +81,13 @@
 
                     <ImageView
                         android:id="@+id/imageView4031"
-                        android:layout_width="wrap_content"
-                        android:layout_height="279dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp"
                         android:layout_margin="3dp"
+                        android:layout_weight="0.88"
                         android:elevation="0dp"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/r80_22" />
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/tablica1" />
 
                     <TextView
                         android:id="@+id/textView16"
@@ -94,118 +95,13 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="5dp"
-                        android:text="Гидрораспределитель Р80 3/1 22"
+                        android:text="Классификация гидроцилиндров"
                         android:textColor="@color/colorMy"
                         android:textSize="14sp" />
 
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginBottom="1dp"
-                    android:background="@color/colorWite"
-                    android:orientation="vertical">
-
-
-                    <TextView
-                        android:id="@+id/textView18"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:text="Тип: клапанно-золотниковый, моноблочный"
-                        android:textColor="@color/colorBlack"
-                        android:textSize="14sp" />
-
-                    <TextView
-                        android:id="@+id/textView11447"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:text="Давление разгрузки, МПа: не больше 0,3"
-                        android:textColor="@color/colorBlack"
-                        android:textSize="14sp" />
-
-                    <TextView
-                        android:id="@+id/textView19"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:text="Расход рабочей жидкости (min/nom/max):"
-                        android:textColor="@color/colorBlack"
-                        android:textSize="14sp" />
-
-                    <TextView
-                        android:id="@+id/textView1941547"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:text="20/80/120 (л/мин)"
-                        android:textColor="@color/colorBlack"
-                        android:textSize="14sp" />
-
-
-                    <TextView
-                        android:id="@+id/textView194147"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:text="Всего золотников: 3/2 (3 или 2 секции)"
-                        android:textColor="@color/colorBlack"
-                        android:textSize="14sp" />
-                    <TextView
-                        android:id="@+id/textView1944147"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:text="Позиции золотника: Подъем, Нейтральная, Опускание принудительное, Плавающая"
-                        android:textColor="@color/colorBlack"
-                        android:textSize="14sp" />
-
-                    <TextView
-                        android:id="@+id/textView401"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginLeft="5dp"
-                        android:text="Масса: 18/12 (кг)"
-                        android:textColor="@color/colorBlack"
-                        android:textSize="14sp" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/colorWite"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:padding="0dp"
-                android:weightSum="1">
-
-
-                <ImageView
-                    android:id="@+id/imageView4031141"
-                    android:layout_width="wrap_content"
-                    android:layout_height="200dp"
-                    android:layout_weight="0.57"
-                    android:elevation="0dp"
-                    android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/ic_zolot" />
-
-                <ImageView
-                    android:id="@+id/imageView40311"
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:layout_weight="0.37"
-                    android:elevation="0dp"
-                    android:scaleType="fitXY"
-                    app:srcCompat="@drawable/sx2" />
-
-
-            </LinearLayout>
 
 
                 <LinearLayout
@@ -218,17 +114,100 @@
                     android:weightSum="1">
 
 
-                    <TextView
-                        android:id="@+id/textView1146"
+                    <ImageView
+                        android:id="@+id/imageView40311"
                         android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:elevation="0dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/gc75" />
+
+                    <ImageView
+                        android:id="@+id/imageView4032511"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:elevation="0dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/gc75_2" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/colorWite"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView401"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="40dp"
-                        android:text="Схема"
-                        android:textColor="@color/colorMy"
+                        android:text="Гидроцилиндр поршневой ГЦ75.32.200.000.22"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="14sp" />
 
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Номинальное давление, МПа: 16"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView11447"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Максимальное давление, МПа: 20"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Давление холостого хода, МПа: 1,5"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView1941547"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Толкающее усилие на штоке, кН: 70"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:id="@+id/textView194147"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Тянущее усилие на штоке, кН: 46"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@color/colorWite"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dp"
+                    android:weightSum="1">
 
                 </LinearLayout>
 
