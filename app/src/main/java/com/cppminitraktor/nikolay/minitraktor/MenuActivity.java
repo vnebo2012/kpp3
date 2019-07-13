@@ -162,14 +162,11 @@ public class MenuActivity extends AppCompatActivity
                 Toast.makeText(getApplicationContext(), "Some error", Toast.LENGTH_SHORT).show();
             }
 
-        } else if (id == R.id.nav_send) {
-            Intent a = new Intent(MenuActivity.this,PlusActivity.class);
-            a.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            startActivity(a);
+
         } else if (id == R.id.you_tube) {
 
             Intent intent = new Intent(Intent.ACTION_VIEW);
-            intent.setData(Uri.parse("https://www.youtube.com/playlist?list=PL8TpYTB2qlTk6BcCDJUUXEFxGaJ1B_IUE"));
+            intent.setData(Uri.parse("https://www.youtube.com/user/Letivnebo/playlists?view_as=subscriber"));
             startActivity(intent);
         } else if (id == R.id.market) {
 

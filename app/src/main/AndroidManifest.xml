@@ -23,19 +23,12 @@
         </activity>
         <activity
             android:name=".ResultatActivity"
-            android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".PlusActivity"
-            android:label="Сообщение"
-            android:theme="@style/AppTheme.NoActionBar" />
+             />
         <activity
             android:name=".StartActivity"
-            android:label="@string/title_activity_menu2"
-            android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
 
     </application>

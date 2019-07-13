@@ -318,7 +318,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
 
-                float weight = (120f - 34f) / (float) seekBar.getMax();
+                float weight = (210f - 34f) / (float) seekBar.getMax();
                 float value = 34f + seekBar.getProgress() * weight;
                 textview3.setText(String.format(Locale.US,"%.0f", value));
 
@@ -800,7 +800,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else if (id == R.id.you_tube) {
 
             Intent intent = new Intent(Intent.ACTION_VIEW);
-            intent.setData(Uri.parse("https://www.youtube.com/channel/UCevOw6a0SiaFm-TGHcogQEg"));
+            intent.setData(Uri.parse("https://www.youtube.com/user/Letivnebo/playlists?view_as=subscriber"));
             startActivity(intent);
 
 

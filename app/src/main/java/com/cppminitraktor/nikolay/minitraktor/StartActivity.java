@@ -20,8 +20,6 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
 
 import java.util.Locale;
 
@@ -34,7 +32,7 @@ public class StartActivity extends AppCompatActivity {
     private EditText k1_4;
     private EditText k1_5;
     private EditText k1_z;
-    private AdView mAdView;
+
 
     private Button button123;
     private Button button124;
@@ -646,9 +644,7 @@ public class StartActivity extends AppCompatActivity {
                                          }
         );
 
-        mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+
 
 
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);

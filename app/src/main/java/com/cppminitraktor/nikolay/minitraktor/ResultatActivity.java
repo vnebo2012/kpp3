@@ -20,8 +20,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
+
 
 import java.util.Locale;
 
@@ -134,7 +133,7 @@ public class ResultatActivity extends AppCompatActivity {
     private EditText k2_5;
     private EditText k2_z;
 
-    private AdView mAdView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -655,9 +654,6 @@ public class ResultatActivity extends AppCompatActivity {
                                          }
         );
 
-        mAdView = (AdView) findViewById(R.id.adView2);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
 
 
         FloatingActionButton fab22 = (FloatingActionButton) findViewById(R.id.fab2);

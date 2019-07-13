@@ -23,6 +23,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Удерживайте - NEW для редактирования"
+            android:id="@+id/textView3111"
+            android:textColor="#ffffff"
+            android:textSize="12dp"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Главная пара (Г/П) на третьей странице"
             android:id="@+id/textView3"
             android:textColor="#ffffff"
@@ -39,7 +48,6 @@
         android:layout_gravity="top|left"
         android:layout_margin="18dp"
         android:src="@mipmap/ic_strelka"
-        android:onClick="onEmailClick"
         app:layout_anchor="@+id/include"
         app:layout_anchorGravity="bottom|right" />
 
